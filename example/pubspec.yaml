@@ -1,0 +1,21 @@
+name: deeplink_tools_example
+description: Example app for deeplink_tools.
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  deeplink_tools:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/deeplink_profiles.json

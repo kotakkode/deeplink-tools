@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "iconPreset": "",
+  "envs": [],
+  "entries": [
+    { "id": "dev-home", "envId": "dev", "name": "Home",
+      "url": "myapp://dev.example.com/home" },
+    { "id": "dev-profile", "envId": "dev", "name": "Profile 42",
+      "url": "myapp://dev.example.com/profile/42" },
+    { "id": "dev-promo", "envId": "dev", "name": "Web promo",
+      "url": "https://dev.example.com/promo?code=WELCOME" },
+    { "id": "prod-home", "envId": "prod", "name": "Home",
+      "url": "myapp://example.com/home" }
+  ]
+}
